@@ -12,7 +12,7 @@
 //        int sid;
 //        string sname;
 //        static string sclg = "vignan university";
-//    public newclass1(int sid, string sname)
+//        public newclass1(int sid, string sname)
 //        {
 //            this.sid = sid;
 //            this.sname = sname;
@@ -33,7 +33,7 @@
 //            int N = int.Parse(Console.ReadLine());
 
 //            newclass1[] std = new newclass1[N];
-//            for(int i= 0; i < N; i++)
+//            for (int i = 0; i < N; i++)
 //            {
 //                Console.WriteLine("\n Enter students details");
 
@@ -41,17 +41,17 @@
 //                int id = int.Parse(Console.ReadLine());
 
 //                Console.WriteLine("enter student name");
-//                string name= Console.ReadLine();
+//                string name = Console.ReadLine();
 
 //                std[i] = new newclass1(id, name);
 
 //            }
 //            Console.WriteLine("student details are");
-//            for(int i=0; i < std.Length; i++)
+//            for (int i = 0; i < std.Length; i++)
 //            {
 //                std[i].stddetails();
 //            }
-     
+
 //        }
 //    }
 //}
