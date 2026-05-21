@@ -32,7 +32,7 @@ namespace oops_programs1.Properties
         public student(int sid)
         {
             this.sid=sid;
-            name="not provided";
+            sname="not provided";
             clg="not provide";
         }
         public void stddetails()
