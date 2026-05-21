@@ -29,6 +29,12 @@ namespace oops_programs1.Properties
             this.sname=sname;
             clg = "not provided";
         }
+        public student(int sid)
+        {
+            this.sid=sid;
+            name="not provided";
+            clg="not provide";
+        }
         public void stddetails()
         {
             Console.WriteLine("Student id is " + sid);
@@ -47,6 +53,8 @@ namespace oops_programs1.Properties
             std1.stddetails();
             student std2 = new student(102, "srinu");
             std2.stddetails();
+            student std3=new student(105);
+            std3.stddetails();
         }
     }
 }
